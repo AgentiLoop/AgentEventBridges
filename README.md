@@ -10,7 +10,7 @@ Calendar, Contacts, Finder, Mail, Messages, Music, Notes, Numbers, Pages, Photos
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/AgentiLoop/AgentEventBridges.git", from: "1.1.4"),
+    .package(url: "https://github.com/AgentiLoop/AgentEventBridges.git", from: "1.1.5"),
 ]
 ```
 
