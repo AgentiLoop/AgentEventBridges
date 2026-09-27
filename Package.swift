@@ -74,7 +74,7 @@ let bridgeProducts: [Product] = bridgeNames.map { name in
 
 let package = Package(
     name: "AgentEventBridges",
-    platforms: [.macOS(.v26)],
+    platforms: [.macOS(.v14)],
     products: [
         .library(name: "ScriptingBridgeCommon", targets: ["ScriptingBridgeCommon"]),
     ] + bridgeProducts,
