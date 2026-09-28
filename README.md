@@ -10,7 +10,7 @@ Calendar, Contacts, Finder, Mail, Messages, Music, Notes, Numbers, Pages, Photos
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/AgentiLoop/AgentEventBridges.git", from: "1.1.5"),
+    .package(url: "https://github.com/AgentiLoop/AgentEventBridges.git", from: "1.1.8"),
 ]
 ```
 
@@ -47,8 +47,16 @@ if let safari: SafariApplication = SBApplication(bundleIdentifier: "com.apple.Sa
 
 ## Requirements
 
-- macOS 26+ / Swift 6.2
+- macOS 14+ / Swift 6.4
 - Apps must have AppleScript/Automation support enabled
+
+## Part of AgentiLoop Agent!
+
+AgentEventBridges is one of the open-source building blocks of **[AgentiLoop Agent!](https://github.com/AgentiLoop/Agent)**, the native AI agent for macOS 14.6+ on Apple Silicon and Intel. Agent! codes in Xcode, drives any Mac app, runs shell as you or as root, and works with 23 LLM providers plus on-device Apple Intelligence.
+
+🌐 [agentiloop.ai](https://agentiloop.ai/) · ⬇️ [Download Agent!](https://github.com/AgentiLoop/Agent/releases/latest) · 🍺 `brew install --cask agentiloop-agent` · 💻 CLIs: [Rust](https://github.com/AgentiLoop/AgentiLoopCLI) / [Go](https://github.com/AgentiLoop/AgentiLoopGo)
+
+**More Agent! packages:** [AgentAccess](https://github.com/AgentiLoop/AgentAccess) · [AgentAudit](https://github.com/AgentiLoop/AgentAudit) · [AgentColorSyntax](https://github.com/AgentiLoop/AgentColorSyntax) · [AgentD1F](https://github.com/AgentiLoop/AgentD1F) · [AgentLLM](https://github.com/AgentiLoop/AgentLLM) · [AgentMCP](https://github.com/AgentiLoop/AgentMCP) · [AgentSwift](https://github.com/AgentiLoop/AgentSwift) · [AgentTerminalNeo](https://github.com/AgentiLoop/AgentTerminalNeo) · [AgentTools](https://github.com/AgentiLoop/AgentTools) · [AgentScripts](https://github.com/AgentiLoop/AgentScripts)
 
 ## License
 
